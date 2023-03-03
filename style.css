@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    display: none;
+}
+header{
+    position: relative;
+    height: 1300px;
+}
+#hero-mob{
+    width: 100%;
+}
+#hero-tab, #hero-desk{
+    display: none;
+}
+
+.header{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: 32px;
+    padding-left: 16px;
+}
+.head-p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    padding-left: 16px;
+    margin-top: 32px;
+}
+.main-butt{
+    width: 260px;
+    height: 72px;
+    padding-left: 16px;
+    margin-top: 32px;
+}
+.button{
+    
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    width: 260px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    background: linear-gradient(
+        to right,
+        #151515 80%,
+        #D5966C 20%
+    );
+    
+}
+#arrow{
+    position: absolute;
+    right: 8%;
+}
+.button h3{
+    position: absolute;
+    left: 10%;
+}
+.button:hover{
+    background: linear-gradient(
+        to right,
+        #D5966C 80%,
+        #151515 20%
+    );
+}
+.grid{
+    padding: 0 16px;
+}
+#firstofgrid{
+    width: 100%;
+    margin-top: 120px;
+}
+#firstofgridtab, #firstofgriddesk, #secofgridtab, #secofgriddesk, #thirdofgridtab, #thirdofgriddesk{
+    display: none;
+} 
+.yourDay h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    text-align: left;
+    width: 100%;
+    margin-top: 25px;
+
+}
+.yourDay p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 21px;
+}
+#secofgrid{
+    margin-top: 32px;
+    width: 100%;
+}
+#thirdofgrid{
+    margin-top: 16px;
+    width: 100%;
+}
+.descrip{
+    background: #151515;
+    height:293px ;
+    
+}
+.descrip h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left:24px ;
+    width: 295px;
+}
+.descrip p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-left: 24px;
+   
+}
+footer{
+    background: #151515;
+    margin-top: 120px;
+}
+#logo-light{
+    padding: 48px 0 0 32px;
+}
+footer p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 38px 32px 0;
+}
+.social{
+    padding: 38px 0 48px 32px;
+}
+
+#fb{
+    margin-right:20px ;
+    cursor: pointer;
+}
+#ig{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+#fb:hover{
+    filter: invert(63%) sepia(100%) saturate(242%) hue-rotate(340deg) brightness(100%) contrast(70%);
+
+}
+#ig:hover{
+    filter: invert(63%) sepia(100%) saturate(242%) hue-rotate(340deg) brightness(100%) contrast(70%);
+
+}
+#tw:hover{
+    filter: invert(63%) sepia(100%) saturate(242%) hue-rotate(340deg) brightness(100%) contrast(70%);
+    cursor: pointer;
+}
+@media (min-width:768px){
+    #hero-tab{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 56%;
+    }
+    #hero-mob{
+        display: none;
+    }
+    .maindiv{
+        position: absolute;
+        top: 145px;
+        left: 50.65%;
+    }
+    .header{
+        font-size: 70px;
+        line-height: 65px;
+    }
+    .main-butt{
+        margin-top: 48px;
+    }
+    .head-p{
+        margin-top: 48px;
+        padding-right: 40px;
+    }
+    #firstofgrid, #firstofgrid, #secofgrid, #secofgrid, #thirdofgrid, #thirdofgrid{
+        display: none;
+    } 
+    #firstofgridtab, #secofgridtab, #thirdofgridtab{
+        display: block;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 42.23512336719884% 17.12626995645864% 40.63860667634253%;
+        grid-template-rows: 40% 30% 30%;
+        gap: 16px;
+        padding: 0 40px;
+    }
+    .yourDay{
+        grid-column-start: 1;
+        order: 1;
+        grid-column-end: 2;
+        grid-row-end: 2;
+        height: 100%;
+        width: 100%;
+    }
+    #firstofgridtab{
+        order: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-end: 2;
+        height: 100%;
+        width: 100%;
+    }
+    #secofgridtab{
+        order: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%;
+    }
+    #thirdofgridtab{
+        order: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+    }
+    .descrip{
+        order: 5;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        padding: 0 28px 0;
+        padding-top: 22.54%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+    footer p{
+        
+        width: 281px;
+        height: 216px;
+        padding-top: 56px;
+    }
+    #logo-light{
+        padding: 56px 0 120px 0 ;
+        width: 7.64%;
+    }
+    .social{
+        padding-top: 56px;
+    }
+    
+}
+@media (min-width:1440px){
+    #firstofgridtab, #secofgridtab, #thirdofgridtab{
+        display: none;
+    }
+     #firstofgriddesk, #secofgriddesk, #thirdofgriddesk{
+        display: block;
+    } 
+
+    .grid{
+        display: grid;
+        grid-template-columns: 42.79% 17.12626995645864% 40.09%;
+        grid-template-rows: 34.78% 27.21% 32.78%;
+        gap: 2.08%;
+        padding: 0 165px;
+        max-width: 77.083%;
+        margin: 0 auto;
+    }
+    .yourDay{
+        grid-column-start: 1;
+        order: 1;
+        grid-column-end: 2;
+        grid-row-end: 2;
+        height: auto;
+        width: 100%;
+    }
+    #firstofgriddesk{
+        order: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-end: 2;
+        height: auto;
+        width: 100%;
+    }
+    #secofgriddesk{
+        order: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%;
+    }
+    #thirdofgriddesk{
+        order: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: auto;
+        width: 100%;
+    }
+    .descrip{
+        order: 5;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        
+        
+    }
+    #hero-tab{
+        display: none;
+    }
+    #hero-desk{
+        display: block;
+        width: 50%;
+    }
+    .black{
+        display: block;
+        width: 50%;
+        background: #151515;
+        height: auto;
+    } 
+    .head{
+        position: relative;
+        display: flex;
+        justify-content: left;
+        width: 68.05%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 165px;
+    }
+    footer p{
+        font-size: 18px;
+        line-height: 28px;
+        width: 29.86%;
+        height: 244px;
+        padding-top: 80px;
+    }
+    #logo-light{
+        padding: 80px 0 106px 0 ;
+        width: 11.08%;
+    }
+    .social{
+        padding-top: 80px;
+    }
+    .header{
+        position: absolute;
+        left: -195.77%;
+        top: 10%;
+        filter: invert(1);
+        mix-blend-mode: difference; 
+        font-size: 96px;
+        line-height: 88px;
+    }
+    
+    .maindiv{
+        max-width: 350px;
+        left: 66%;
+    }
+
+}

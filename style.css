@@ -88,6 +88,7 @@ header{
         #151515 20%
     );
 }
+
 .grid{
     padding: 0 16px;
 }
@@ -131,7 +132,7 @@ header{
 .descrip{
     background: #151515;
     height:293px ;
-    
+    margin-top: 16px;
 }
 .descrip h1{
     font-family: 'Big Shoulders Display';
@@ -143,6 +144,7 @@ header{
     color: #FFFFFF;
     padding-left:24px ;
     width: 295px;
+    padding-top:16px ;
 }
 .descrip p{
     font-family: 'Outfit';
@@ -281,6 +283,7 @@ footer p{
         text-align: left;
         padding: 0 28px 0;
         padding-top: 22.54%;
+        margin: 0;
     }
     footer{
         display: flex;
@@ -315,8 +318,9 @@ footer p{
         grid-template-columns: 42.79% 17.12626995645864% 40.09%;
         grid-template-rows: 34.78% 27.21% 32.78%;
         gap: 2.08%;
-        padding: 0 165px;
+        
         max-width: 77.083%;
+        padding: 0 ;
         margin: 0 auto;
     }
     .yourDay{
@@ -361,7 +365,7 @@ footer p{
         height: 100%;
         width: 100%;
         text-align: left;
-        
+        margin: 0;
         
     }
     #hero-tab{

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#map-mob{
+    width: 100%;
+}
+#map-tab, #map-desk{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    width: 260px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    background: linear-gradient(
+        to left,
+         #151515 80%,
+         #D5966C 20%
+    );
+    
+}
+#arrow{
+    position: absolute;
+    left: 8%;
+}
+.button:hover{
+    background: linear-gradient(
+        to left,
+        #D5966C 80%,
+        #151515 20%
+    );
+}
+.button h3{
+    position: relative;
+    left: 10%;
+}
+.main-butt{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.black{
+    background: #151515;
+    margin: 0 auto;
+} 
+.black h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding:48px  16px 0 ;
+}
+.black h3{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D5966C;
+    padding:48px  16px 0 ;
+}
+.black p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 20px  16px 56px ;
+}
+footer{
+    background: #D5966C;
+}
+
+#logo-dark{
+    padding:48px  32px 0 ;
+}
+footer p{
+    padding:38px  32px 0 ;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+}
+.social{
+    padding: 38px 0 48px 32px;
+}
+
+#fb{
+    margin-right:20px ;
+    cursor: pointer;
+   
+}
+#ig{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+#fb:hover{
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(340deg) brightness(0) contrast(0);
+
+}
+#ig:hover{
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(340deg) brightness(0) contrast(0);
+
+}
+#tw:hover{
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(340deg) brightness(0) contrast(0);
+
+    cursor: pointer;
+}
+@media (min-width:768px){
+    #map-mob{
+        display: none;
+    }
+    #map-tab{
+        display: block;
+        width: 100%;
+    }
+    
+    
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer p{
+        padding-right:0 ;
+        width: 36.58%;
+        padding-top:56px ;
+    }
+    
+    #logo-dark{
+        padding: 56px 65px 120px 40px ;
+        
+    }
+    .social{
+        padding-right:40px ;
+        padding-top:56px ;
+    }
+    .black{
+        display: flex;
+        justify-content: space-around;
+        padding: 88px 40px;
+    }
+  
+}
+@media(min-width:1440px){
+    #map-tab{
+        display: none;
+    }
+    #map-desk{
+        display: block;
+        width: 100%;
+    }
+    footer p{
+        padding-top:80px ;
+    }
+    #logo-dark{
+        padding-top:80px ;
+    }
+    .social{
+        padding-top:80px ;
+    }
+}

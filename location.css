@@ -66,6 +66,7 @@ a{
     line-height: 45px;
     color: #FFFFFF;
     padding:48px  16px 0 ;
+    
 }
 .black h3{
     font-family: 'Big Shoulders Display';
@@ -138,7 +139,9 @@ footer p{
         width: 100%;
     }
     
-    
+    .black h1{
+        max-width: 210px;
+    }
     footer{
         display: flex;
         justify-content: space-between;
